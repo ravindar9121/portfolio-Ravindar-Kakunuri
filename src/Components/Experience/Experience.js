@@ -40,8 +40,8 @@ const Experience = () => {
             <li>Used Spring MVC framework at the Web tier level to isolate each layer of the application so that complexity of integration will be reduced, and maintenance will be very easy.</li>
                 <li>Used Spring AOP for solving crosscutting concerns like keeping customer log data and transactions details.</li>
                 <li>Deployed Spring Boot based Micro services Docker container using Amazon EC2 container services and using AWS admin console.</li>
-                <li>Developed the persistence layer using Hibernate Framework by configuring the various mappings in Hibernate files and created DAO layer.<li/>
-                <li>Designed and integrated the full-scale Hibernate persistence solution with the application architecture.<li/>
+                <li>Developed the persistence layer using Hibernate Framework by configuring the various mappings in Hibernate files and created DAO layer.</li>
+                <li>Designed and integrated the full-scale Hibernate persistence solution with the application architecture.</li>
                 <li>Involved in design and development of the Hibernate Domain Model for the service,</li>
                 <li>Used Active MQ as Java Messaging Service for producing data between applications.</li>
                 <li>Worked on RESTful Web services as well as Node Rest framework for backend services used Mongo DB (NoSQL) for database services and RESTful web services using Jersey for JAX-RS implementation.</li>
