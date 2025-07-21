@@ -3,7 +3,7 @@ import "./About.css";
 import { FaAward } from "react-icons/fa";
 import { MdOutlineFolderCopy } from "react-icons/md";
 import { FaUserGraduate } from "react-icons/fa";
-import Me from "../../assets/Me.jpeg";
+import Me from "../../assets/Me2.jpeg";
 
 const About = () => {
   return (
@@ -41,7 +41,7 @@ const About = () => {
           <p>
             Software Engineer with 4 years of experience in designing and
             developing scalable, high-performance backend systems using Spring
-            Boot, Spring WebFlux, and Microservices architecture. Proficient in
+            Boot, Hibernate, and Microservices architecture. Proficient in
             building robust RESTful APIs and integrating Spring Security, OAuth
             2.0, and JWT authentication. Skilled in JPA, Hibernate, SQL, and
             Apache Maven for efficient database management and build automation.
@@ -50,7 +50,7 @@ const About = () => {
             Experienced in developing reactive, event-driven services using
             Spring WebFlux and Apache Kafka, enabling real-time data streaming
             and asynchronous messaging for large-scale systems. Additionally,
-            experienced in unit testing with JUnit 5 and Mockito.
+            sexperienced in unit testing with JUnit 5 and Mockito and Surefire.
             <br />
             <br />
             Strong knowledge of Agile/Scrum with expertise in HTML, CSS,
@@ -61,10 +61,8 @@ const About = () => {
             <br />
             <br />
             Successfully delivered full-stack and data-driven projects,
-            including the Blood Bank Management System, Healthcare HL7/FHIR,
-            Calorie Hub (Calorie Tracking and Visualization), Wine Quality
-            Prediction (Machine Learning Models), and Professional Consultancy
-            Service project using Spring Boot, Angular, and AWS.
+            including the E-Commerce, Crowd Funding,
+            Pose Detection, Online Voting System,Notes Sharing, Sign Language Detection.
           </p>
         </div>
       </div>

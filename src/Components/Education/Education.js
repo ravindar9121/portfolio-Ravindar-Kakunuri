@@ -1,11 +1,11 @@
 import React from "react";
 import "./Education.css";
-import SRU from "../../assets/SRU.png";
+import VEL from "../../assets/veltech logo.jpg";
 import USF from "../../assets/USF.png";
 
 const Education = () => {
-  const sruLink = () => {
-    window.location.href = "https://sru.edu.in";
+  const velLink = () => {
+    window.location.href = "https://www.veltech.edu.in/";
   };
 
   const usfLink = () => {
@@ -18,9 +18,9 @@ const Education = () => {
       <div className="education_container">
         <div className="education">
           <div className="education_sru">
-            <img src={SRU} alt="" onClick={sruLink}></img>
-            <h3 onClick={sruLink}>SR University</h3>
-            <h4>Bachelors in Electrnoics and Communication Engineering</h4>
+            <img src={VEL} alt="" onClick={velLink}></img>
+            <h3 onClick={velLink}>Vel Tech University</h3>
+            <h4>Bachelors in Computer Science & Engineering</h4>
             <p>Jul 2017- Jul 2021</p>
             <h4>
               Coursework: Java, C Programming, Data Structures, Computer
@@ -31,13 +31,11 @@ const Education = () => {
           <div className="education_usf">
             <img src={USF} alt="" onClick={usfLink}></img>
             <h3 onClick={usfLink}>University of South Florida</h3>
-            <h4>Masters in Business Analytics and Information Systems</h4>
+            <h4>Masters in Computer Science</h4>
             <p>Aug 2023 - May 2025</p>
             <h4>
-              Coursework: Advance Database Management Systems, Advance System
-              Analysis/Design, App Development for Analytics, Project
-              Management, Cloud Solutions and Architecture, Data Mining, Data
-              Science Programming.
+              Coursework: Operating Systems, Data Structures and Algorithms,
+              Computer Architecture
             </h4>
           </div>
         </div>

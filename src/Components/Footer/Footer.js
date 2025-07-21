@@ -6,14 +6,14 @@ const Footer = () => {
     <div id="footer" className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <h1>Nikil Valusa</h1>
+          <h1>Ravindar Kakunuri</h1>
           <p>I am Java Full-Stack developer with 4 years of experience.</p>
         </div>
       </div>
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">
-          @ 2025 Nikil Valusa | <span> Portfolio developed using React</span>
+          @ 2025 Ravindar Kakunuri | <span> Portfolio developed using React</span>
         </p>
         <div className="footer-bottom-right">
           <p>Terms of Service</p>

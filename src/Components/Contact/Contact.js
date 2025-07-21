@@ -39,10 +39,10 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <IoIosCall></IoIosCall>
-              <p>+1 813-568-7720</p>
+              <p>+1 561-668-5743</p>
             </div>
             <div className="contact-detail">
-              <MdMailOutline></MdMailOutline> <p>valusa.nikil@gmail.com</p>
+              <MdMailOutline></MdMailOutline> <p>ravindarreddy025@gmail.com</p>
             </div>
             <div className="contact-detail">
               <MdOutlineLocationOn></MdOutlineLocationOn>

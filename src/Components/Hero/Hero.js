@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import Profile_img from "../../assets/Profile.jpeg";
+import Profile_img from "../../assets/IAM.jpeg";
 import Github_img from "../../assets/Github_Img.png";
 import LinkedIn_img from "../../assets/LinkedIn_img.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -13,7 +13,8 @@ const Hero = () => {
     "Java Full-Stack Developer",
     "Java Developer",
     "Software Developer",
-    "Data Analyst",
+    "API Developer",
+    "Microservices Developer",
   ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(50);
@@ -50,33 +51,33 @@ const Hero = () => {
 
   const resumeLink = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1VqQB3poT48x7v6JOzAsRcZbiMde3LoY8/view?usp=drive_link";
+      "https://docs.google.com/document/d/1myNXn29gvB6unwzh4dbvsfR_yn358mPM/edit?usp=drive_link&ouid=105517081997894793590&rtpof=true&sd=true";
   };
 
   const mediumLink = () => {
-    window.location.href = "https://medium.com/@valusa.nikhil13";
+    window.location.href = "";
   };
 
   const hackerrankLink = () => {
-    window.location.href = "https://www.hackerrank.com/profile/valusa_nikhil13";
+    window.location.href = "";
   };
 
   const leetcodeLink = () => {
-    window.location.href = "https://leetcode.com/u/NikilValusa/";
+    window.location.href = "https://leetcode.com/u/ravindar9121/";
   };
 
   const linkedInLink = () => {
-    window.location.href = "https://www.linkedin.com/in/nikil-valusa";
+    window.location.href = "https://www.linkedin.com/in/ravindarkakunuri/";
   };
 
   const gitLink = () => {
-    window.location.href = "https://github.com/valusanikil";
+    window.location.href = "https://github.com/ravindar9121";
   };
 
   return (
     <div id="home" className="hero">
       <img src={Profile_img} alt=""></img>
-      <h1>I'm Nikil Valusa</h1>
+      <h1>I'm Ravindar Kakunuri</h1>
 
       <h2 className="wrap">
         <span className="passionate-text">A passionate{" - "}</span>
@@ -87,9 +88,9 @@ const Hero = () => {
 
       <p>
         Experienced in building scalable applications with 4 years of hands-on
-        expertise in Java, Spring (MVC, Boot, WebFlux, Security), Microservices,
-        SQL, JavaScript, Angular, React, and cloud platforms like AWS, Docker,
-        and Kubernetes.
+        expertise in Java, Spring (MVC, Boot, Security), Microservices, SQL,
+        JavaScript, Angular, React, and cloud platforms like AWS, Docker, and
+        Kubernetes.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

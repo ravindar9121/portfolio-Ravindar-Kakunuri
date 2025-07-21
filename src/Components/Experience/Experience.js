@@ -2,16 +2,16 @@ import React from "react";
 import "../Experience/Experience.css";
 
 const Experience = () => {
-  const clinDCastLink = () => {
-    window.location.href = "https://www.clindcast.com";
+  const thinkworks = () => {
+    window.location.href = "https://thinkworks.co.in/";
   };
 
   const LTIMindtreeLink = () => {
-    window.location.href = "https://www.ltimindtree.com";
+    window.location.href = "";
   };
 
   const TechMahindraLink = () => {
-    window.location.href = "https://www.techmahindra.com";
+    window.location.href = "";
   };
   return (
     <div id="experience" className="experience-section">
@@ -20,112 +20,48 @@ const Experience = () => {
         <div className="experience-content">
           <div className="experience-item">
             <h6>
-              <b onClick={clinDCastLink}>ClinDCast, Florida, USA</b>
+              <b onClick={thinkworks}>ThinkWorks Infotech, Banglore, IND</b>
             </h6>
-            <h4>Intern</h4>
-            <h5>Dec 2024 - May 2025</h5>
+            <h4>Full Time</h4>
+            <h5>Dec 2019 - July 2023</h5>
             <ul>
               <li>
-                Created 50+ HL7 templates in Java, integrating MSH, EVN, PID,
-                and PV1 segments to optimize hospital workflows, reducing
-                patient intake time by 25% while ensuring HIPAA compliance.
-              </li>
-              <li>
-                Developed HL7 v2.5.1 messages (ADT, ORU, SIU) ensuring 99%
-                message integrity across healthcare systems.
-              </li>
-              <li>
-                Built FHIR based RESTful APIs in Java to enable real-time data
-                exchange, improving EHR systems response time by 50%.
-              </li>
+                Involved in various phases of Software Development Life Cycle (SDLC) such as planning, requirements gathering, design, development, and testing.</li>
+              <li>Developing interactive and user-friendly front-end applications using Angular, ensuring seamless user experiences.</li>
+              <li>Maintained Interface compatibility and concurrency in the project using Java 1.8 new features like Lambda expressions, default, static methods, and Concurrency API.</li>
+              <li>Developed the business layer components as Stateless Session Beans based on EJB API.</li>
+              <li>Developed Angular 5 custom directives and used Routes and Factory validations in Angular.</li>
+              <li>Designed, built, and deployed a multitude application utilizing almost all of AWS stack (Including EC2, S3,Lambda, Dynamo DB, SQS and RDS), focusing on high-availability, fault tolerance, and auto- scaling.</li>
+              <li>I have used Apache Tomcat for the server-side work and did data streaming using Apache Kafka.</li>
+              <li>Working in an Agile environment for a sprint of 2 weeks and achieved an average of 8 points a sprint.</li>
+              <li>Used GitHub and source tree for version control processes also used Jenkins for CICD pipeline. OpenText and Confluence was used for document management for the whole application and client. For cloud side AWS was used in which EC2, S3, Lambda, and elastic beanstalk etc. Developed RESTful Web services for transmission of data in JSON format.</li>
+                <li>Worked with enterprise web applications, with hands-on experience in data formats and service standards including XML, JSON, REST, SOAP.</li>
+            <li>Developed the application with various Spring Framework modules like Spring Batch to process Batch Files.</li>
+            <li>Used Spring MVC framework at the Web tier level to isolate each layer of the application so that complexity of integration will be reduced, and maintenance will be very easy.</li>
+                <li>Used Spring AOP for solving crosscutting concerns like keeping customer log data and transactions details.</li>
+                <li>Deployed Spring Boot based Micro services Docker container using Amazon EC2 container services and using AWS admin console.</li>
+                <li>Developed the persistence layer using Hibernate Framework by configuring the various mappings in Hibernate files and created DAO layer.<li/>
+                <li>Designed and integrated the full-scale Hibernate persistence solution with the application architecture.<li/>
+                <li>Involved in design and development of the Hibernate Domain Model for the service,</li>
+                <li>Used Active MQ as Java Messaging Service for producing data between applications.</li>
+                <li>Worked on RESTful Web services as well as Node Rest framework for backend services used Mongo DB (NoSQL) for database services and RESTful web services using Jersey for JAX-RS implementation.</li>
+                <li>Designed and developed Middle-tier components for company's object framework using best practices and design Patterns and used in Model-View-Controller (MVC).</li>
+                <li>Secured the API's by implementing Oauth2 token-based authentication/authorization scheme using Spring Security.</li>
+                <li>Create and configured the continuous delivery pipelines for deploying Micro Services by using Jenkins.</li>
+                <li>Installed, monitored and maintained the development infrastructure including JIRA.</li>
+                <li>Used SQL Server as the relational database to perform the CRUD operations on and along with I have developed Triggers, Stored procedures.</li>
+                <li>Using SQL Developer IDE for query development, debugging, and performance optimization of database operations.</li>
+                <li>Worked on Log4J to validate functionalities and Mockito framework JUnit for Unit testing and executed TDD framework.</li>
+                <li>Designed and implemented automated test cases using TestNG framework, enabling regression and integration testing for REST APIs and enhancing test coverage by 40%.</li>
+                <li>Designed and executed unit tests using JUnit and Mockito to ensure high code coverage and application reliability; validated RESTful APIs with Postman to verify end-to-end functionality.</li>
+                <li>Used Git to maintain the version of the files and took the responsibility to do the code merges and creating new branch when new feature implementation starts.</li>
+                <li>Used Maven as build automation tool for deploying the project on WebSphere Application Server.</li>
             </ul>
+            
             <p className="skills_experience">
               <b>Skills:</b> Java, HL7, FHIR, MirthConnect, Python, ETL
             </p>
-          </div>
-
-          <div className="experience-item">
-            <h6>
-              <b onClick={LTIMindtreeLink}>LTIMindtree, Hyderabad, India</b>
-            </h6>
-            <h4>Software Engineer</h4>
-            <h5>Aug 2021 - Jul 2023</h5>
-            <ul>
-              <li>
-                Worked on 20+ microservices using Spring WebFlux reactive
-                programming for Philips ITAAP Integration, improving API
-                response time by 45% and reducing memory consumption by 30% with
-                non-blocking asynchronous processing.
-              </li>
-              <li>
-                Performed JOLT transformations on over 20 payloads to streamline
-                data mapping and enhance processing efficiency.{" "}
-              </li>
-              <li>
-                Implemented OAuth 2.0 using Spring Security for secure API
-                Gateway integration and leveraged JWT tokens to authorize
-                communication with downstream microservices.
-              </li>
-              <li>
-                Integrated Apache Kafka 3.5 for asynchronous messaging between
-                15+ microservices, boosting real-time data processing efficiency
-                by 30% and enhancing system scalability.
-              </li>
-              <li>
-                Implemented Azure CI/CD pipelines to automate build, test, and
-                deployment, improving release efficiency by 40% and ensuring
-                reliable deployments.
-              </li>
-              <li>
-                Created 20+ reusable components using Angular and React for
-                responsive UI using HTML, CSS, and JavaScript.
-              </li>
-              <li>
-                Containerized 5+ applications using Docker and deployed them on
-                AWS services including EC2, S3, RDS, and IAM for scalable and
-                efficient cloud deployments.
-              </li>
-            </ul>
-            <p className="skills_experience">
-              <b>Skills:</b> Java, Spring Boot, Spring Webflux, Spring Security,
-              Microservices, SQL, JOLT
-            </p>
-          </div>
-
-          <div className="experience-item">
-            <h6>
-              <b onClick={TechMahindraLink}>Tech Mahindra, Hyderabad, India</b>
-            </h6>
-            <h4>Associate Software Engineer</h4>
-            <h5>Mar 2020 - Jul 2021</h5>
-            <ul>
-              <li>
-                Developed 2 microservices using Spring Boot and implemented
-                WebClient for efficient inter-service communication, improving
-                data exchange by 30%.
-              </li>
-              <li>
-                Utilized Java 8 features such as Lambdas, Streams, Functional
-                Interfaces, Generics, Exception Handling, and Collections API to
-                write clean, efficient, and scalable backend code.
-              </li>
-              <li>
-                Achieved over 70% test coverage for RESTful APIs in multiple
-                modules by developing unit tests using JUnit and Mockito.
-              </li>
-              <li>
-                Optimized SQL queries and joins using JPA, Hibernate, and JDBC,
-                improving data retrieval by 35% from MySQL database.
-              </li>
-              <li>
-                Collaborated in Agile sprints, managing 20+ pull requests on
-                GitHub and tracking tasks in Jira for timely feature delivery.
-              </li>
-            </ul>
-            <p className="skills_experience">
-              <b>Skills:</b> Java, Spring Boot, React, Microservices, AWS,
-              CI/CD, JUnit, Angular
-            </p>
+            
           </div>
         </div>
       </div>
