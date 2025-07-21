@@ -169,6 +169,7 @@ const Experience = () => {
               </b>
             </p>
           </div>
+          </div>
         </div>
       </div>
     </div>
