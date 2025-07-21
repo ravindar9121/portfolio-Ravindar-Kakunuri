@@ -1,3 +1,4 @@
+
 import React from "react";
 import "../Experience/Experience.css";
 
@@ -95,7 +96,7 @@ const Experience = () => {
               </li>
               <li>
                 Involved in design and development of the Hibernate Domain Model
-                for the service,
+                for the service.
               </li>
               <li>
                 Used Active MQ as Java Messaging Service for producing data
@@ -155,17 +156,18 @@ const Experience = () => {
                 Used Maven as build automation tool for deploying the project on
                 WebSphere Application Server.
               </li>
-
-              <p className="skills_experience">
-                <b>
-                  Skills: Agile Methodology, SQL Server, Java/J2EE, HTML5, CSS3,
-                  Ajax, Rest API's, Bootstrap, JavaScript, Angular 5, NodeJS,
-                  Hibernate, Spring Framework, Kafka, Spring MVC, Spring IOC,
-                  Spring Boot, Spring Security, OAuth, JAX-RS, GIT, JUnit,
-                  Postman, Maven, Amazon Web Services (AWS), Micro Services,
-                  Mongo DB, WebSphere, JIRA, Jenkins, Spring Tool Suite.
-                </b>
-              </p>
+              <li>
+                <p className="skills_experience">
+                  <b>
+                    Skills: Agile Methodology, SQL Server, Java/J2EE, HTML5, CSS3,
+                    Ajax, Rest API's, Bootstrap, JavaScript, Angular 5, NodeJS,
+                    Hibernate, Spring Framework, Kafka, Spring MVC, Spring IOC,
+                    Spring Boot, Spring Security, OAuth, JAX-RS, GIT, JUnit,
+                    Postman, Maven, Amazon Web Services (AWS), Micro Services,
+                    Mongo DB, WebSphere, JIRA, Jenkins, Spring Tool Suite.
+                  </b>
+                </p>
+              </li>
             </ul>
           </div>
         </div>
