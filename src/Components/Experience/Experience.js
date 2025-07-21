@@ -6,7 +6,6 @@ const Experience = () => {
     window.location.href = "https://thinkworks.co.in/";
   };
 
-
   return (
     <div id="experience" className="experience-section">
       <h1 className="work_heading">Work Experience</h1>
@@ -156,18 +155,18 @@ const Experience = () => {
                 Used Maven as build automation tool for deploying the project on
                 WebSphere Application Server.
               </li>
-            </ul>
 
-            <p className="skills_experience">
-              <b>
-                Skills: Agile Methodology, SQL Server, Java/J2EE, HTML5, CSS3,
-                Ajax, Rest API's, Bootstrap, JavaScript, Angular 5, NodeJS,
-                Hibernate, Spring Framework, Kafka, Spring MVC, Spring IOC,
-                Spring Boot, Spring Security, OAuth, JAX-RS, GIT, JUnit,
-                Postman, Maven, Amazon Web Services (AWS), Micro Services, Mongo
-                DB, WebSphere, JIRA, Jenkins, Spring Tool Suite.
-              </b>
-            </p>
+              <p className="skills_experience">
+                <b>
+                  Skills: Agile Methodology, SQL Server, Java/J2EE, HTML5, CSS3,
+                  Ajax, Rest API's, Bootstrap, JavaScript, Angular 5, NodeJS,
+                  Hibernate, Spring Framework, Kafka, Spring MVC, Spring IOC,
+                  Spring Boot, Spring Security, OAuth, JAX-RS, GIT, JUnit,
+                  Postman, Maven, Amazon Web Services (AWS), Micro Services,
+                  Mongo DB, WebSphere, JIRA, Jenkins, Spring Tool Suite.
+                </b>
+              </p>
+            </ul>
           </div>
         </div>
       </div>
