@@ -22,13 +22,14 @@ const Navbar = () => {
       <img
         src={menu_open}
         onClick={openMenu}
-        alt=""
+        alt="Open menu"
         className="nav-mob-open"
       ></img>
       <ul ref={menuRef} className="nav-menu">
         <img
           src={menu_close}
           onClick={closeMenu}
+          alt="Close menu"
           className="nav-mob-close"
         ></img>
         <li>

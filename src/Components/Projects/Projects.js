@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="project_container">
         <article className="project_item">
           <div className="project_item_image">
-            <img className="image" src={Crowd_Funding} alt=""></img>
+            <img className="image" src={Crowd_Funding} alt="Blood Bank Management System"></img>
           </div>
           <h3 className="project_title">Sea Monster Crowd Funding</h3>
           <p>
@@ -25,6 +25,7 @@ const Projects = () => {
               href="https://github.com/ravindar9121/E-Commerce"
               className="btn-git"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
@@ -32,6 +33,7 @@ const Projects = () => {
               href="https://drive.google.com/file/d/1-CDxl_qNO-8Qo5dtJ7KfCNQExyKdGLz7/view?usp=sharing"
               className="btn-report"
               target="_blank"
+              rel="noreferrer"
             >
               Report
             </a>

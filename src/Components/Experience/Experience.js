@@ -6,13 +6,7 @@ const Experience = () => {
     window.location.href = "https://thinkworks.co.in/";
   };
 
-  const LTIMindtreeLink = () => {
-    window.location.href = "";
-  };
-
-  const TechMahindraLink = () => {
-    window.location.href = "";
-  };
+  
   return (
     <div id="experience" className="experience-section">
       <h1 className="work_heading">Work Experience</h1>
