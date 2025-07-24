@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-Ravindar-Kakunuri/static/css/main.204897fc.css",
+    "main.js": "/portfolio-Ravindar-Kakunuri/static/js/main.bf10d7e7.js",
+    "static/js/453.6fec2cf9.chunk.js": "/portfolio-Ravindar-Kakunuri/static/js/453.6fec2cf9.chunk.js",
+    "static/media/Blood Bank System.png": "/portfolio-Ravindar-Kakunuri/static/media/Blood Bank System.46d16fb29ace247eb79d.png",
+    "static/media/IAM.jpeg": "/portfolio-Ravindar-Kakunuri/static/media/IAM.bf36d49570a1d34eed2a.jpeg",
+    "static/media/Me2.jpeg": "/portfolio-Ravindar-Kakunuri/static/media/Me2.e2767b93a535d7fb6199.jpeg",
+    "static/media/veltech logo.jpg": "/portfolio-Ravindar-Kakunuri/static/media/veltech logo.84801b1e65c11828ea5c.jpg",
+    "static/media/USF.png": "/portfolio-Ravindar-Kakunuri/static/media/USF.f63f744e7ae7087a5e51.png",
+    "static/media/LinkedIn_img.png": "/portfolio-Ravindar-Kakunuri/static/media/LinkedIn_img.4f809ad478582263b5a2.png",
+    "static/media/Github_Img.png": "/portfolio-Ravindar-Kakunuri/static/media/Github_Img.4ac5642c3a0372d94948.png",
+    "index.html": "/portfolio-Ravindar-Kakunuri/index.html",
+    "static/media/menu_open.svg": "/portfolio-Ravindar-Kakunuri/static/media/menu_open.4f507d64d2cbabbd949de3f581a4e27c.svg",
+    "static/media/underline.svg": "/portfolio-Ravindar-Kakunuri/static/media/underline.e702649e5f420e5dd7ba15eb248b2341.svg",
+    "static/media/menu_close.svg": "/portfolio-Ravindar-Kakunuri/static/media/menu_close.2001e956d267bc9b1a2349ee0a8ee521.svg",
+    "main.204897fc.css.map": "/portfolio-Ravindar-Kakunuri/static/css/main.204897fc.css.map",
+    "main.bf10d7e7.js.map": "/portfolio-Ravindar-Kakunuri/static/js/main.bf10d7e7.js.map",
+    "453.6fec2cf9.chunk.js.map": "/portfolio-Ravindar-Kakunuri/static/js/453.6fec2cf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.204897fc.css",
+    "static/js/main.bf10d7e7.js"
+  ]
+}
